@@ -1,0 +1,24 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/ALU.sv,1708904641,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BAG.sv,,ALU,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BAG.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCD.sv,,BAG,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCD.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCG.sv,,BCD,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCG.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_DCDR.sv,,BCG,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_DCDR.sv,1705719720,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_FSM.sv,,CU_DCDR,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_FSM.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CathodeDriver.sv,,CU_FSM,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CathodeDriver.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/FourMux.sv,,CathodeDriver,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/FourMux.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/ImmediateGenerator.sv,,FourMux,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/ImmediateGenerator.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER.sv,,ImmediateGenerator,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER_Wrapper_v1_02.sv,,OTTER,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER_Wrapper_v1_02.sv,1705735663,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC.sv,,OTTER_Wrapper,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_MUX.sv,,PC,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_MUX.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_REG.sv,,PC_MUX,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_REG.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/REG_FILE.sv,,PC_REG,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/REG_FILE.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/SevSegDisp.sv,,REG_FILE,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/SevSegDisp.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/TwoMux.sv,,SevSegDisp,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/TwoMux.sv,1705718736,systemVerilog,,C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/otter_memory_v1_07.sv,,TwoMux,,uvm,,,,,,
+C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/otter_memory_v1_07.sv,1705718935,systemVerilog,,,,Memory,,uvm,,,,,,
+C:/Users/vicer/Vivado Projects/RISCV_OTTER/RISCV_OTTER.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/vicer/Vivado Projects/RISCV_OTTER/RISCV_OTTER.srcs/sim_1/new/OTTER_sim.v,1705723550,verilog,,,,OTTER_sim,,uvm,,,,,,

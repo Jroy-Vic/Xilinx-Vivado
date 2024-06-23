@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/types.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/add_shift_multiplier.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/verification/empty grader/grader.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/verification/multiplier_itf.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/verification/testbench.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/lab1_v2/mult/verification/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Problem1_Schematic_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Problem1_Schematic_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="68.301 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Problem1_Schematic_sim/sA" type="logic">
+      <obj_property name="ElementShortName">sA</obj_property>
+      <obj_property name="ObjectShortName">sA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sB" type="logic">
+      <obj_property name="ElementShortName">sB</obj_property>
+      <obj_property name="ObjectShortName">sB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sC" type="logic">
+      <obj_property name="ElementShortName">sC</obj_property>
+      <obj_property name="ObjectShortName">sC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sD" type="logic">
+      <obj_property name="ElementShortName">sD</obj_property>
+      <obj_property name="ObjectShortName">sD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sX" type="logic">
+      <obj_property name="ElementShortName">sX</obj_property>
+      <obj_property name="ObjectShortName">sX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sY" type="logic">
+      <obj_property name="ElementShortName">sY</obj_property>
+      <obj_property name="ObjectShortName">sY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Problem1_Schematic_sim/sZ" type="logic">
+      <obj_property name="ElementShortName">sZ</obj_property>
+      <obj_property name="ObjectShortName">sZ</obj_property>
+   </wvobject>
+</wave_config>

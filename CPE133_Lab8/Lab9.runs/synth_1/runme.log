@@ -1,0 +1,336 @@
+
+*** Running vivado
+    with args -log L9P2_Sequencer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source L9P2_Sequencer.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source L9P2_Sequencer.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 373.469 ; gain = 66.199
+Command: read_checkpoint -auto_incremental -incremental C:/Users/vicer/Lab9/Lab9.srcs/utils_1/imports/synth_1/L9P1_ProfFSM.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/vicer/Lab9/Lab9.srcs/utils_1/imports/synth_1/L9P1_ProfFSM.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top L9P2_Sequencer -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12392
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1183.320 ; gain = 406.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'L9P2_Sequencer' [C:/Users/vicer/Lab9/Lab9.srcs/sources_1/new/L9P2_Sequencer.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'L9P2_Sequencer' (0#1) [C:/Users/vicer/Lab9/Lab9.srcs/sources_1/new/L9P2_Sequencer.sv:14]
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[3] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[2] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[1] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1272.660 ; gain = 496.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1272.660 ; gain = 496.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1272.660 ; gain = 496.129
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1272.660 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Exams'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Exams'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Coffee'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Coffee'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Reset'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Grades'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Grades'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Housework'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Housework'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[7]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[7]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[6]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[6]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[5]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[5]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[4]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[4]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[3]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[3]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[2]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[2]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[1]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[1]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[0]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CAT[0]'. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/vicer/Lab9/Lab9.srcs/constrs_1/new/L9P1_Board.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/L9P2_Sequencer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/L9P2_Sequencer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1309.770 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1309.770 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/vicer/Lab9/Lab9.srcs/utils_1/imports/synth_1/L9P1_ProfFSM.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'PS_reg' in module 'L9P2_Sequencer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ONE1 |                               00 | 00000000000000000000000000000000
+                   SEVEN |                               01 | 00000000000000000000000000000001
+                    ZERO |                               10 | 00000000000000000000000000000010
+                    ONE2 |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'PS_reg' using encoding 'sequential' in module 'L9P2_Sequencer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input    8 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port SQNCE[6] driven by constant 0
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port SQNCE[5] driven by constant 0
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port SQNCE[1] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port SQNCE[0] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[3] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[2] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[1] driven by constant 1
+WARNING: [Synth 8-3917] design L9P2_Sequencer has port AN[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:26 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     1|
+|4     |LUT4 |     1|
+|5     |FDRE |     2|
+|6     |IBUF |     3|
+|7     |OBUF |    12|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1309.770 ; gain = 496.129
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1309.770 ; gain = 533.238
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1309.770 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1310.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f78e20f3
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 39 Warnings, 27 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:01:03 . Memory (MB): peak = 1310.512 ; gain = 912.184
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vicer/Lab9/Lab9.runs/synth_1/L9P2_Sequencer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file L9P2_Sequencer_utilization_synth.rpt -pb L9P2_Sequencer_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  2 22:25:08 2023...

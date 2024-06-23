@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTER_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTER_sim" />
+            <top_module name="\$unit_ALU_sv_2871676217 " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="249.001 ns"></ZoomEndTime>
+      <Cursor1Time time="412.190 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/OTTER_sim/sCLK" type="logic">
+      <obj_property name="ElementShortName">sCLK</obj_property>
+      <obj_property name="ObjectShortName">sCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/sRESET" type="logic">
+      <obj_property name="ElementShortName">sRESET</obj_property>
+      <obj_property name="ObjectShortName">sRESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/sIOBUS_IN" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sIOBUS_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sIOBUS_IN[31:0]</obj_property>
+      <obj_property name="label">IOBUS_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/sIOBUS_ADDR" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sIOBUS_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sIOBUS_ADDR[31:0]</obj_property>
+      <obj_property name="label">IOBUS_ADDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/sIOBUS_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sIOBUS_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sIOBUS_OUT[31:0]</obj_property>
+      <obj_property name="label">IOBUS_OUT</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2128">
+      <obj_property name="label">FETCH [IF]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/pc" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="label">pc [IF]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/JALR" type="array">
+      <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/RS1" type="array">
+      <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/I_TYPE" type="array">
+      <obj_property name="ElementShortName">I_TYPE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_TYPE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/JAL" type="array">
+      <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/J_TYPE" type="array">
+      <obj_property name="ElementShortName">J_TYPE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">J_TYPE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BAG/FROM_PC" type="array">
+      <obj_property name="ElementShortName">FROM_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FROM_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2129">
+      <obj_property name="label">DECODE [DE]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/if_de_reg.IR" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.IR[31:0]</obj_property>
+      <obj_property name="label">IR [DE]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OPCODE" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="label">OPCODE [DE]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2130">
+      <obj_property name="label">EXECUTE [EX]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_ALU/SRC_A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">SRC_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRC_A[31:0]</obj_property>
+      <obj_property name="label">SRC_A [EX]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_ALU/SRC_B" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">SRC_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRC_B[31:0]</obj_property>
+      <obj_property name="label">SRC_B [EX]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_ALU/RESULT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">RESULT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[31:0]</obj_property>
+      <obj_property name="label">RESULT [EX]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2131">
+      <obj_property name="label">MEMORY [MEM]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_MEMORY/MEM_ADDR2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+      <obj_property name="label">memAddr [MEM]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_MEMORY/MEM_DIN2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+      <obj_property name="label">memDin [MEM]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_MEMORY/MEM_RDEN2" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MEM_RDEN2</obj_property>
+      <obj_property name="ObjectShortName">MEM_RDEN2</obj_property>
+      <obj_property name="label">memRden [MEM]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_MEMORY/MEM_WE2" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MEM_WE2</obj_property>
+      <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+      <obj_property name="label">memWr [MEM]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_MEMORY/MEM_DOUT2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+      <obj_property name="label">memDout [MEM]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2132">
+      <obj_property name="label">WRITEBACK [WB]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#A0A0A4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_REG_FILE/WA" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+      <obj_property name="label">WA [WB]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_REG_FILE/WD" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="label">WD [WB]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_REG_FILE/EN" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+      <obj_property name="label">regWrite [WB]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/hazardUnit" type="array">
+      <obj_property name="ElementShortName">hazardUnit</obj_property>
+      <obj_property name="ObjectShortName">hazardUnit</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/Forward_aluAin" type="array">
+      <obj_property name="ElementShortName">Forward_aluAin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Forward_aluAin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/Forward_aluBin" type="array">
+      <obj_property name="ElementShortName">Forward_aluBin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Forward_aluBin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/pc_sel" type="array">
+      <obj_property name="ElementShortName">pc_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BCG/BR_LTU" type="logic">
+      <obj_property name="ElementShortName">BR_LTU</obj_property>
+      <obj_property name="ObjectShortName">BR_LTU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BCG/BR_LT" type="logic">
+      <obj_property name="ElementShortName">BR_LT</obj_property>
+      <obj_property name="ObjectShortName">BR_LT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_BCG/BR_EQ" type="logic">
+      <obj_property name="ElementShortName">BR_EQ</obj_property>
+      <obj_property name="ObjectShortName">BR_EQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/lwStall" type="logic">
+      <obj_property name="ElementShortName">lwStall</obj_property>
+      <obj_property name="ObjectShortName">lwStall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_PC/PC_SOURCE" type="array">
+      <obj_property name="ElementShortName">PC_SOURCE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_SOURCE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_PC/JALR" type="array">
+      <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_PC/BRANCH" type="array">
+      <obj_property name="ElementShortName">BRANCH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRANCH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_sim/UUT/OTTER_PC/JAL" type="array">
+      <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+   </wvobject>
+</wave_config>

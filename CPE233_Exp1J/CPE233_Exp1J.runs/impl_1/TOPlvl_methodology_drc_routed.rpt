@@ -1,0 +1,69 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Oct  9 12:35:24 2023
+| Host         : Roys_MacBook running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TOPlvl_methodology_drc_routed.rpt -pb TOPlvl_methodology_drc_routed.pb -rpx TOPlvl_methodology_drc_routed.rpx
+| Design       : TOPlvl
+| Device       : xc7a35ticpg236-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 6
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning  | Missing input or output delay | 5          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell my_fsm/count[3]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) CNT/count_reg[0]/CLR, CNT/count_reg[1]/CLR, CNT/count_reg[2]/CLR,
+CNT/count_reg[3]/CLR, CNTH/count_reg[0]/CLR, CNTH/count_reg[1]/CLR,
+CNTH/count_reg[2]/CLR, CNTH/count_reg[3]/CLR, CNTL/count_reg[0]/CLR,
+CNTL/count_reg[1]/CLR, CNTL/count_reg[2]/CLR, CNTL/count_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on BTN relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+

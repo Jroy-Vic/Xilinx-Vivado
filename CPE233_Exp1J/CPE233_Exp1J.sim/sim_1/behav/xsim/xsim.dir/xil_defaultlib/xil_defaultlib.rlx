@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/vicer/CPE233_Exp1J/CPE233_Exp1J.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/vicer/CPE233_Exp1J/CPE233_Exp1J.srcs/sim_1/new/TOPlvl_tb.v,1696886996,verilog,,,,TOPlvl_tb,,,,,,,,
+C:/Users/vicer/Downloads/ROM_16x8_exp1j.v,1696750567,verilog,,C:/Users/vicer/Downloads/TOPlvl.v,,ROM_16x8_exp1j,,,,,,,,
+C:/Users/vicer/Downloads/TOPlvl.v,1696908157,verilog,,C:/Users/vicer/Downloads/Verilog_FSM_Template v1_00-1.v,,TOPlvl,,,,,,,,
+C:/Users/vicer/Downloads/Verilog_FSM_Template v1_00-1.v,1696880014,verilog,,C:/Users/vicer/Downloads/clk_2n_div_test_v1_01.v,,fsm_template,,,,,,,,
+C:/Users/vicer/Downloads/clk_2n_div_test_v1_01.v,1696828182,verilog,,C:/Users/vicer/Downloads/cntr_up_clr_nb_v1_03.v,,clk_2n_div_test,,,,,,,,
+C:/Users/vicer/Downloads/cntr_up_clr_nb_v1_03.v,1696903495,verilog,,C:/Users/vicer/Downloads/comp_nb_v1_02.v,,cntr_up_clr_nb,,,,,,,,
+C:/Users/vicer/Downloads/comp_nb_v1_02.v,1696443302,verilog,,C:/Users/vicer/Downloads/mux_2t1_nb_v1_04.v,,comp_nb,,,,,,,,
+C:/Users/vicer/Downloads/mux_2t1_nb_v1_04.v,1696827972,verilog,,C:/Users/vicer/Downloads/n_x_m_single_port_ram_v_1_01.v,,mux_2t1_nb,,,,,,,,
+C:/Users/vicer/Downloads/n_x_m_single_port_ram_v_1_01.v,1696449195,verilog,,C:/Users/vicer/Downloads/univ_sseg_v1_05.v,,ram_single_port,,,,,,,,
+C:/Users/vicer/Downloads/univ_sseg_v1_05.v,1696881033,verilog,,C:/Users/vicer/CPE233_Exp1J/CPE233_Exp1J.srcs/sim_1/new/TOPlvl_tb.v,,clk_divder;cnt_convert_14b;cnt_convert_7b;univ_sseg,,,,,,,,

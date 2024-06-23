@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/ALU.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/BAG.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/BCG.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/CU_DCDR.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/FourMux.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/ImmediateGenerator.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/PC.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/PC_MUX.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/PC_REG.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/new/Pipelined_Otter.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/REG_FILE.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/new/SA_CACHE.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/TwoMux.sv" \
+"../../../../CPE333_Lab5.srcs/sources_1/imports/OTTER_Diego_Curiel/otter_memory_v1_07.sv" \
+
+verilog xil_defaultlib  \
+"../../../../CPE333_Lab5.srcs/sim_1/imports/new/OTTER_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

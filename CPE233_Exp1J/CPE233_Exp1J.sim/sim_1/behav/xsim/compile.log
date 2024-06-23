@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/ROM_16x8_exp1j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_16x8_exp1j
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/TOPlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOPlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/Verilog_FSM_Template v1_00-1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_template
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/clk_2n_div_test_v1_01.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_2n_div_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/cntr_up_clr_nb_v1_03.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cntr_up_clr_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/comp_nb_v1_02.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comp_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/mux_2t1_nb_v1_04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2t1_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/n_x_m_single_port_ram_v_1_01.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_single_port
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/Downloads/univ_sseg_v1_05.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module univ_sseg
+INFO: [VRFC 10-311] analyzing module clk_divder
+INFO: [VRFC 10-311] analyzing module cnt_convert_14b
+INFO: [VRFC 10-311] analyzing module cnt_convert_7b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vicer/CPE233_Exp1J/CPE233_Exp1J.srcs/sim_1/new/TOPlvl_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOPlvl_tb

@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Downloads/ROM_16x8_exp1j.v" \
+"../../../../../Downloads/TOPlvl.v" \
+"../../../../../Downloads/Verilog_FSM_Template v1_00-1.v" \
+"../../../../../Downloads/clk_2n_div_test_v1_01.v" \
+"../../../../../Downloads/cntr_up_clr_nb_v1_03.v" \
+"../../../../../Downloads/comp_nb_v1_02.v" \
+"../../../../../Downloads/mux_2t1_nb_v1_04.v" \
+"../../../../../Downloads/n_x_m_single_port_ram_v_1_01.v" \
+"../../../../../Downloads/univ_sseg_v1_05.v" \
+"../../../../CPE233_Exp1J.srcs/sim_1/new/TOPlvl_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

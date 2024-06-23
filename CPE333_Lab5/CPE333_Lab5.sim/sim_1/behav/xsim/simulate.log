@@ -1,0 +1,835 @@
+Time resolution is 1 ps
+Set CNT for Set #          0
+
+Set ValidBit for Block #          0, Set #          0
+
+Set ValidBit for Block #          1, Set #          0
+
+Set ValidBit for Block #          2, Set #          0
+
+Set ValidBit for Block #          3, Set #          0
+
+Set CNT for Set #          1
+
+Set ValidBit for Block #          0, Set #          1
+
+Set ValidBit for Block #          1, Set #          1
+
+Set ValidBit for Block #          2, Set #          1
+
+Set ValidBit for Block #          3, Set #          1
+
+Set CNT for Set #          2
+
+Set ValidBit for Block #          0, Set #          2
+
+Set ValidBit for Block #          1, Set #          2
+
+Set ValidBit for Block #          2, Set #          2
+
+Set ValidBit for Block #          3, Set #          2
+
+Set CNT for Set #          3
+
+Set ValidBit for Block #          0, Set #          3
+
+Set ValidBit for Block #          1, Set #          3
+
+Set ValidBit for Block #          2, Set #          3
+
+Set ValidBit for Block #          3, Set #          3
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #0
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+	Cache Empty: Block #          0, TAG: 0000000
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          0
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          0
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          0
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          0
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #1 / Byte #0 -> fe010113 / fe
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> 00000097 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 010080e7 / 01
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #1
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+Reading from Cache -> Set #1
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+	Cache Empty: Block #          0, TAG: 0000000
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          0
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          0
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          0
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          0
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #1
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 110c05b7 / 11
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+	Cache Empty: Block #          0, TAG: 0000000
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          0
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          0
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          0
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          0
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #1 / Byte #0 -> fff00713 / ff
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> 00000097 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 1c8080e7 / 1c
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+	Cache Empty: Block #          0, TAG: 0000007
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          0
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          0
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          0
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          0
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #1 / Byte #0 -> 0016f693 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> fe069ce3 / fe
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+	Cache Hit: Block #          0
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 00170713 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+	Cache Empty: Block #          0, TAG: 0440000
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          0
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          0
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          0
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          0
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+Cache Missed: Checking if empty -> Block #          1
+
+	Cache Empty: Block #          1, TAG: 0000008
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          1
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          1
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          1
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          1
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+	Cache Hit: Block #          1
+
+	Cache Hit: Outputting Data, Word #1 / Byte #0 -> 00008067 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Writing to Cache -> Set #0
+
+Checking for Empty Block or if Data is already written: Block #          0
+
+Checking for Empty Block or if Data is already written: Block #          1
+
+Empty Block Found to Store Data!
+
+	Cache Empty: Block #          1, TAG: 0443000
+
+	(Write) Cache Replace: Dirty Bit is set
+
+		Cache Written: Data is Stored -> ffffffff to Word #0 / Byte #0
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #0
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+	Cache Hit: Block #          1
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 00150513 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+Cache Missed: Checking if empty -> Block #          1
+
+	Cache Empty: Block #          1, TAG: 0000000
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          1
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          1
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          1
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          1
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+	Cache Hit: Block #          1
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> 1bc080e7 / 1b
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+Cache Missed: Checking if empty -> Block #          1
+
+	Cache Empty: Block #          1, TAG: 0000008
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          1
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          1
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          1
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          1
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+	Cache Hit: Block #          1
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> 00a62023 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #2
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+	Cache Hit: Block #          1
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 00000093 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+Checking for Cache Hits: Block #          3
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+OH NAH
+
+WHAT THE HECK
+
+OH NAH
+
+Writing to Cache -> Set #0
+
+Checking for Empty Block or if Data is already written: Block #          0
+
+Checking for Empty Block or if Data is already written: Block #          1
+
+Checking for Empty Block or if Data is already written: Block #          2
+
+Empty Block Found to Store Data!
+
+	Cache Empty: Block #          2, TAG: 0442000
+
+	(Write) Cache Replace: Dirty Bit is set
+
+		Cache Written: Data is Stored -> 00000000 to Word #0 / Byte #0
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Cache completely missed!
+
+Cache Missed: Checking if empty -> Block #          0
+
+Cache Missed: Checking if empty -> Block #          1
+
+Cache Missed: Checking if empty -> Block #          2
+
+	Cache Empty: Block #          2, TAG: 0000008
+
+	Cache Empty: Write Word #          0 / Byte #          0 into Block #          2
+
+		Word #          0: 00000000
+
+	Cache Empty: Write Word #          1 / Byte #          4 into Block #          2
+
+		Word #          1: 00000000
+
+	Cache Empty: Write Word #          2 / Byte #          8 into Block #          2
+
+		Word #          2: 00000000
+
+	Cache Empty: Write Word #          3 / Byte #         12 into Block #          2
+
+		Word #          3: 00000000
+
+		Cache Written: Outputting Data -> 00000000
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+	Cache Hit: Block #          2
+
+	Cache Hit: Outputting Data, Word #1 / Byte #0 -> 00208f33 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+	Cache Hit: Block #          2
+
+	Cache Hit: Outputting Data, Word #2 / Byte #0 -> 00000e93 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+WHAT THE HECK
+
+NOT THE INSTR STATE
+
+Reading from Cache -> Set #3
+
+Checking for Cache Hits: Block #          0
+
+Checking for Cache Hits: Block #          1
+
+Checking for Cache Hits: Block #          2
+
+	Cache Hit: Block #          2
+
+	Cache Hit: Outputting Data, Word #3 / Byte #0 -> 00200193 / 00
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+

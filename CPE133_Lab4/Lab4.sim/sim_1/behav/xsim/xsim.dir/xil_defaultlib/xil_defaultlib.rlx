@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sources_1/new/L3P2_MUX.sv,1683690337,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P1_FullAdder.sv,,L3P2_MUX,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sim_1/new/L4P2_Sim.sv,1683771592,systemVerilog,,,,L4P2_Sim,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sim_1/new/L4P3_Sim.sv,1683704887,systemVerilog,,,,L4P3_Sim,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P1_FullAdder.sv,1683557044,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P3_RCA5out.sv,,L4P1_FullAdder,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P1_HalfAdder.sv,1683690337,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P2_BitMult.sv,,L4P1_HalfAdder,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P2_BitMult.sv,1683694061,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P2_Multiplier.sv,,L4P2_BitMult,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P2_Multiplier.sv,1683694711,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sim_1/new/L4P2_Sim.sv,,L4P2_Multiplier,,uvm,,,,,,
+C:/Users/vicer/Lab4/Lab4.srcs/sources_1/new/L4P3_RCA5out.sv,1683701984,systemVerilog,,C:/Users/vicer/Lab4/Lab4.srcs/sim_1/new/L4P3_Sim.sv,,L4P3_RCA5out,,uvm,,,,,,

@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPE233_Lab2.srcs/sources_1/new/PC_module.v" \
+"../../../../../Downloads/mux_4t1_nb_v1_06.v" \
+"../../../../../Downloads/reg_nb_sync_clr_v1_01.v" \
+
+sv xil_defaultlib  \
+"../../../../../Downloads/otter_memory_v1_06.sv" \
+
+verilog xil_defaultlib  \
+"../../../../CPE233_Lab2.srcs/sim_1/new/PC_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

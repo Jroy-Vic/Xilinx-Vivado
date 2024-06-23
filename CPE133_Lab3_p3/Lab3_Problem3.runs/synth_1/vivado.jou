@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May  3 21:50:34 2023
+# Process ID: 15168
+# Current directory: C:/Users/vicer/Lab3_Problem3/Lab3_Problem3.runs/synth_1
+# Command line: vivado.exe -log L3P3_Comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source L3P3_Comparator.tcl
+# Log file: C:/Users/vicer/Lab3_Problem3/Lab3_Problem3.runs/synth_1/L3P3_Comparator.vds
+# Journal file: C:/Users/vicer/Lab3_Problem3/Lab3_Problem3.runs/synth_1\vivado.jou
+# Running On: Roys_MacBook, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16834 MB
+#-----------------------------------------------------------
+source L3P3_Comparator.tcl -notrace

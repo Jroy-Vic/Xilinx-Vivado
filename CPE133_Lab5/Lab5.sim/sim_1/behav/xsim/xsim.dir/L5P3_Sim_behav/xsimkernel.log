@@ -1,0 +1,7 @@
+Running: xsim.dir/L5P3_Sim_behav/xsimk.exe -simmode gui -wdb L5P3_Sim_behav.wdb -simrunnum 0 -socket 53336
+Design successfully loaded
+Design Loading Memory Usage: 7832 KB (Peak: 7832 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 8404 KB (Peak: 8404 KB)
+Simulation CPU Usage: 46 ms

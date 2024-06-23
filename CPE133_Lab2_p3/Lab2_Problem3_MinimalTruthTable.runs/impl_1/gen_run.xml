@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1682442197">
+  <File Type="ROUTE-PWR" Name="Lab2_Problem3_MinimalTruthTable_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Lab2_Problem3_MinimalTruthTable.tcl"/>
+  <File Type="BITSTR-MMI" Name="Lab2_Problem3_MinimalTruthTable.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Lab2_Problem3_MinimalTruthTable_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Lab2_Problem3_MinimalTruthTable_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Lab2_Problem3_MinimalTruthTable_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Lab2_Problem3_MinimalTruthTable_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Lab2_Problem3_MinimalTruthTable_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Lab2_Problem3_MinimalTruthTable.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Lab2_Problem3_MinimalTruthTable_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Lab2_Problem3_MinimalTruthTable_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Lab2_Problem3_MinimalTruthTable_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Lab2_Problem3_MinimalTruthTable_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Lab2_Problem3_MinimalTruthTable_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Lab2_Problem3_MinimalTruthTable_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Lab2_Problem3_MinimalTruthTable_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Lab2_Problem3_MinimalTruthTable_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Lab2_Problem3_MinimalTruthTable_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Lab2_Problem3_MinimalTruthTable_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Lab2_Problem3_MinimalTruthTable.bin"/>
+  <File Type="PLACE-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Lab2_Problem3_MinimalTruthTable_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Lab2_Problem3_MinimalTruthTable.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Lab2_Problem3_MinimalTruthTable_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Lab2_Problem3_MinimalTruthTable_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Lab2_Problem3_MinimalTruthTable.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Lab2_Problem3_MinimalTruthTable_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Lab2_Problem3_MinimalTruthTable_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Lab2_Problem3_MinimalTruthTable_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Lab2_Problem3_MinimalTruthTable_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Lab2_Problem3_MinimalTruthTable_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Lab2_Problem3_MinimalTruthTable_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Lab2_Problem3_MinimalTruthTable_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Lab2_Problem3_MinimalTruthTable_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Lab2_Problem3_MinimalTruthTable_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Lab2_Problem3_MinimalTruthTable_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Lab2_Problem3_MinimalTruthTable_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Lab2_Problem3_MinimalTruthTable_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Lab2_Problem3_MinimalTruthTable_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Lab2_Problem3_MinimalTruthTable_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Lab2_Problem3_MinimalTruthTable_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Lab2_Problem3_MinimalTruthTable_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Lab2_Problem3_MinimalTruthTable_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Lab2_Problem3_MinimalTruthTable.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Lab2_Problem3_MinimalTruthTable_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Lab2_Problem3_MinimalTruthTable.nky"/>
+  <File Type="BITSTR-BMM" Name="Lab2_Problem3_MinimalTruthTable_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Lab2_Problem3_MinimalTruthTable.pdi"/>
+  <File Type="RCFI_FILE" Name="Lab2_Problem3_MinimalTruthTable.rcfi"/>
+  <File Type="CFI_FILE" Name="Lab2_Problem3_MinimalTruthTable.cfi"/>
+  <File Type="RNPI_FILE" Name="Lab2_Problem3_MinimalTruthTable.rnpi"/>
+  <File Type="NPI_FILE" Name="Lab2_Problem3_MinimalTruthTable.npi"/>
+  <File Type="RBD_FILE" Name="Lab2_Problem3_MinimalTruthTable.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Lab2_Problem3_MinimalTruthTable.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Lab2_Problem3_MinimalTruthTable.sysdef"/>
+  <File Type="BG-BGN" Name="Lab2_Problem3_MinimalTruthTable.bgn"/>
+  <File Type="BG-DRC" Name="Lab2_Problem3_MinimalTruthTable.drc"/>
+  <File Type="RDI-RDI" Name="Lab2_Problem3_MinimalTruthTable.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Lab2_Problem3_MinimalTruthTable_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Lab2_Problem3_MinimalTruthTable_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Lab2_Problem3_MinimalTruthTable.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab2_Problem3_MinimalTruthTable"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

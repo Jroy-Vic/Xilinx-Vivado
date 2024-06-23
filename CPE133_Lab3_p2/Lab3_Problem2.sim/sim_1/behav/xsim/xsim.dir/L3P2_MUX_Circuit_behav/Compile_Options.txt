@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "L3P2_MUX_Circuit_behav" "xil_defaultlib.L3P2_MUX_Circuit" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../CPE233_Lab3/CPE233_Lab3.srcs/sources_1/new/ALU_module.v" \
+"../../../../../CPE233_Lab6/CPE233_Lab6.srcs/sources_1/new/BCG_module.v" \
+"../../../../CPE233_Lab5.srcs/sources_1/new/OTTER_MCU.v" \
+"../../../../../CPE233_Lab2/CPE233_Lab2.srcs/sources_1/new/PC_module.v" \
+"../../../../../Downloads/mux_2t1_nb_v1_04.v" \
+"../../../../../Downloads/mux_4t1_nb_v1_06.v" \
+"../../../../../Downloads/reg_nb_sync_clr_v1_01.v" \
+
+sv xil_defaultlib  \
+"../../../../../Downloads/control_unit_dcdr_v_1_05.sv" \
+"../../../../../Downloads/control_unit_fsm_v_1_07.sv" \
+"../../../../../Downloads/otter_memory_v1_06.sv" \
+"../../../../../Downloads/reg_file_v_1_01.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../Downloads/exp5_testbench-1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../EE 133 - Lab 1 - Problem 2.srcs/sources_1/new/Lab1_Problem2_Equations.sv" \
+"../../../../EE 133 - Lab 1 - Problem 2.srcs/sim_1/new/Lab1_Problem2_Sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

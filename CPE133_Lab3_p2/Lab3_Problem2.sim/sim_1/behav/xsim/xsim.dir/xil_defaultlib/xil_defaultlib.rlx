@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sim_1/new/L3P2_Sim.sv,1683169983,systemVerilog,,,,L3P2_Sim,,uvm,,,,,,
+C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sources_1/new/L3P2_MUX.sv,1683169816,systemVerilog,,C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sources_1/new/L3P2_MUX_Circuit.sv,,L3P2_MUX,,uvm,,,,,,
+C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sources_1/new/L3P2_MUX_Circuit.sv,1683166186,systemVerilog,,C:/Users/vicer/Lab3_Problem2/Lab3_Problem2.srcs/sim_1/new/L3P2_Sim.sv,,L3P2_MUX_Circuit,,uvm,,,,,,

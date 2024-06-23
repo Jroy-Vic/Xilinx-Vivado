@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/ALU.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BAG.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCD.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/BCG.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_DCDR.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CU_FSM.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/CathodeDriver.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/FourMux.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/ImmediateGenerator.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/OTTER_Wrapper_v1_02.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_MUX.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/PC_REG.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/REG_FILE.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/SevSegDisp.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/TwoMux.sv" \
+"../../../../../../OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Diego_Curiel/otter_memory_v1_07.sv" \
+
+verilog xil_defaultlib  \
+"../../../../RISCV_OTTER.srcs/sim_1/new/OTTER_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

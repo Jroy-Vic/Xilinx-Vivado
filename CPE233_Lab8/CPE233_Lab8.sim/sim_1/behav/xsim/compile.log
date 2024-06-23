@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/CSR_v1_05.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/OTTER_Wrapper_v1_08.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/control_unit_dcdr_v_1_05.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/control_unit_fsm_v_1_07.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/dbounce_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/one_shot_posneg_v1_03.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/otter_memory_v1_06.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vicer/Downloads/reg_file_v_1_01.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile

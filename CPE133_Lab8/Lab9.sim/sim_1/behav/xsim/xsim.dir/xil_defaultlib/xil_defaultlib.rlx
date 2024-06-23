@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/vicer/Lab9/Lab9.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P1_Sim.sv,1685763881,systemVerilog,,,,L9P1_Sim,,uvm,,,,,,
+C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P2_Sim.sv,1685704838,systemVerilog,,,,L9P2_Sim,,uvm,,,,,,
+C:/Users/vicer/Lab9/Lab9.srcs/sources_1/new/L9P1_ProfFSM.sv,1685763662,systemVerilog,C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P1_Sim.sv,C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P1_Sim.sv,,$unit_L9P1_ProfFSM_sv_2821708479;L9P1_ProfFSM,,uvm,,,,,,
+C:/Users/vicer/Lab9/Lab9.srcs/sources_1/new/L9P2_Sequencer.sv,1685769164,systemVerilog,C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P2_Sim.sv,C:/Users/vicer/Lab9/Lab9.srcs/sim_1/new/L9P2_Sim.sv,,$unit_L9P2_Sequencer_sv_3590870471;L9P2_Sequencer,,uvm,,,,,,

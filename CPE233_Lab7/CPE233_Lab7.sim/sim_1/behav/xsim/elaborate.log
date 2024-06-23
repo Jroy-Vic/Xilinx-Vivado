@@ -1,0 +1,19 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot Exp7_testbench_behav xil_defaultlib.Exp7_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'iobus_wr' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:86]
+ERROR: [VRFC 10-3180] cannot find port 'iobus_addr' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:85]
+ERROR: [VRFC 10-3180] cannot find port 'iobus_out' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:84]
+ERROR: [VRFC 10-3180] cannot find port 'iobus_in' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:83]
+ERROR: [VRFC 10-3180] cannot find port 'clk' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:82]
+ERROR: [VRFC 10-3180] cannot find port 'intr' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:81]
+ERROR: [VRFC 10-3180] cannot find port 'RST' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/OTTER_Wrapper_v1_08.sv:80]
+ERROR: [VRFC 10-3180] cannot find port 'RF_WR_SEL' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/otter_mcu_pipeline_template_v2.sv:168]
+ERROR: [VRFC 10-3180] cannot find port 'ALU_FUN' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/otter_mcu_pipeline_template_v2.sv:167]
+ERROR: [VRFC 10-3180] cannot find port 'ALU_RESULT_STALL' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/otter_mcu_pipeline_template_v2.sv:216]
+ERROR: [VRFC 10-3180] cannot find port 'ALU_RESULT' on this module [C:/Users/vicer/OneDrive/Desktop/CAD Files + Code/Vivado Modules/otter_mcu_pipeline_template_v2.sv:214]
+WARNING: [VRFC 10-2861] module 'OTTER_Wrapper' does not have a parameter named SIM_MODE [C:/Users/vicer/Vivado Projects/CPE233_Lab7/CPE233_Lab7.srcs/sim_1/new/Exp7_testbench.v:32]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

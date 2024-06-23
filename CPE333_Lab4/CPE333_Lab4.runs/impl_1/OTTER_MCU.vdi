@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Mar  6 00:26:03 2024
+# Process ID: 20968
+# Current directory: C:/Users/vicer/Vivado Projects/CPE333_Lab4/CPE333_Lab4.runs/impl_1
+# Command line: vivado.exe -log OTTER_MCU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source OTTER_MCU.tcl -notrace
+# Log file: C:/Users/vicer/Vivado Projects/CPE333_Lab4/CPE333_Lab4.runs/impl_1/OTTER_MCU.vdi
+# Journal file: C:/Users/vicer/Vivado Projects/CPE333_Lab4/CPE333_Lab4.runs/impl_1\vivado.jou
+# Running On: Roys_MacBook, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16834 MB
+#-----------------------------------------------------------
+source OTTER_MCU.tcl -notrace
+Command: open_checkpoint OTTER_MCU_opt.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 311.980 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 790.105 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5765 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 10 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'OTTER_MCU' is not ideal for floorplanning, since the cellview 'Memory' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 960.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4096 instances were transformed.
+  RAM128X1D => RAM128X1D (inverted pins: WCLK) (MUXF7(x2), RAMD64E(x4)): 4096 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: 5a19bb33
+----- Checksum: PlaceDB: 00000000 ShapeSum: 5a19bb33 RouteDB: 00000000 
+open_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 962.113 ; gain = 650.133
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC UTLZ-1] Resource utilization: RAMD64E over-utilized in Top Level Design (This design requires more RAMD64E cells than are available in the target device. This design requires 16384 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.)
+CRITICAL WARNING: [DRC UTLZ-2] Resource utilization: LUT as Distributed RAM over-utilized in Top Level Design (This design requires more LUT as Distributed RAM cells than are available in the target device. This design requires 16384 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device. Please set tcl parameter "drc.disableLUTOverUtilError" to 0 to change this warning to error.)
+CRITICAL WARNING: [DRC UTLZ-2] Resource utilization: LUT as Memory over-utilized in Top Level Design (This design requires more LUT as Memory cells than are available in the target device. This design requires 16384 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device. Please set tcl parameter "drc.disableLUTOverUtilError" to 0 to change this warning to error.)
+INFO: [Vivado_Tcl 4-198] DRC finished with 1 Errors, 2 Critical Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+INFO: [Common 17-83] Releasing license: Implementation
+15 Infos, 1 Warnings, 2 Critical Warnings and 2 Errors encountered.
+place_design failed
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  6 00:26:27 2024...

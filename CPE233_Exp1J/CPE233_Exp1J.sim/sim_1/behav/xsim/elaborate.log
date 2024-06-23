@@ -1,0 +1,28 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TOPlvl_tb_behav xil_defaultlib.TOPlvl_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'D_OUT' [C:/Users/vicer/Downloads/TOPlvl.v:94]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 7 for port 'cnt2' [C:/Users/vicer/Downloads/TOPlvl.v:149]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_2n_div_test(n=10000)
+Compiling module xil_defaultlib.fsm_template
+Compiling module xil_defaultlib.ROM_16x8_exp1j
+Compiling module xil_defaultlib.ram_single_port(n=4)
+Compiling module xil_defaultlib.mux_2t1_nb
+Compiling module xil_defaultlib.mux_2t1_nb(n=4)
+Compiling module xil_defaultlib.cntr_up_clr_nb(n=4)
+Compiling module xil_defaultlib.comp_nb
+Compiling module xil_defaultlib.cnt_convert_14b
+Compiling module xil_defaultlib.cnt_convert_7b
+Compiling module xil_defaultlib.clk_divder
+Compiling module xil_defaultlib.univ_sseg
+Compiling module xil_defaultlib.TOPlvl
+Compiling module xil_defaultlib.TOPlvl_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TOPlvl_tb_behav
